@@ -1,0 +1,25 @@
+﻿
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"items":[{"update_timestamp":"2025-06-04T05:20:59+08:00","timestamp":"2
+                    025-06-04T05:16:00+08:00","forecasts":[{"temperature":{"low":26,"high":3
+                    5},"date":"2025-06-05","forecast":"Afternoon thundery sh...
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    x-amzn-RequestId: 34cf8fe7-2a13-4787-8bdb-8b634f8a57c7
+                    Access-Control-Allow-Origin: *
+                    x-amz-apigw-id: LnjF8EmTyQ0EWTA=
+                    Access-Control-Allow-Methods: GET,OPT...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [x-amzn-RequestId, 
+                    34cf8fe7-2a13-4787-8bdb-8b634f8a57c7], [Access-Control-Allow-Origin, 
+                    *], [x-amz-apigw-id, LnjF8EmTyQ0EWTA=]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 1112
+
+
+

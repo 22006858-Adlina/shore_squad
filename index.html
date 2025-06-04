@@ -27,7 +27,7 @@
                 loading="lazy"
                 allowfullscreen
                 referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.96407342013!2d103.955574!3d1.381497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2zMcKwMjInNTMuNCJOIDEwM8KwNTcnMjAuMCJF!5e0!3m2!1sen!2ssg!4v1717488000000!5m2!1sen!2ssg">
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.96407342013!2d103.955574!3d1.381497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2zMcKwMjInNTMuNCJOIDEwM8KwNTcnMjAuMCJF!5e0!3m2!1sen!2ssg!4v1717488000000!5m2!1sen!2ssg&disableDefaultUI=true">
             </iframe>
             <div class="map-label">
                 <span class="map-dot"></span>
@@ -40,7 +40,18 @@
         </section>
         <section id="crew-section">
             <h2>Your Crew</h2>
-            <div id="crew-list" class="card">Invite friends and join a cleanup!</div>
+            <div id="crew-list" class="card">
+                <div class="crew-actions">
+                    <input type="text" id="crew-name-input" placeholder="Enter friend name..." aria-label="Friend name">
+                    <button id="add-crew-btn">Add Friend</button>
+                </div>
+                <ul id="crew-members" class="crew-members-list">
+                    <li>Alex <button class="remove-crew-btn" title="Remove">&times;</button></li>
+                    <li>Jamie <button class="remove-crew-btn" title="Remove">&times;</button></li>
+                    <li>Priya <button class="remove-crew-btn" title="Remove">&times;</button></li>
+                    <li>Wei Ming <button class="remove-crew-btn" title="Remove">&times;</button></li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>

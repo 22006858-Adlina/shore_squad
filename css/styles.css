@@ -194,6 +194,120 @@ iframe {
     border-left: 5px solid #ff6f3c;
 }
 
+.forecast-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0077b6;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.forecast-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+}
+.forecast-card {
+    background: linear-gradient(120deg, #f7fafc 80%, #43d8c922 100%);
+    border-radius: 1rem;
+    box-shadow: 0 1px 8px #43d8c933;
+    padding: 1rem 1.2rem;
+    min-width: 140px;
+    max-width: 180px;
+    text-align: center;
+    color: #22223b;
+    margin-bottom: 0.5rem;
+    border-left: 4px solid #43d8c9;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+.forecast-card:hover {
+    box-shadow: 0 4px 16px #43d8c955;
+    border-left: 4px solid #ff6f3c;
+}
+.forecast-date {
+    font-weight: 600;
+    color: #0077b6;
+    margin-bottom: 0.3rem;
+}
+.forecast-desc {
+    font-size: 1.05rem;
+    margin-bottom: 0.2rem;
+}
+.forecast-temp {
+    font-size: 1.1rem;
+    color: #ff6f3c;
+    font-weight: 600;
+}
+.crew-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+#crew-name-input {
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: 1.5px solid #43d8c9;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+#crew-name-input:focus {
+    border-color: #0077b6;
+}
+#add-crew-btn {
+    background: #43d8c9;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 1px 6px #43d8c933;
+}
+#add-crew-btn:hover {
+    background: #0077b6;
+    color: #ffe066;
+}
+.crew-members-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    justify-content: center;
+}
+.crew-members-list li {
+    background: #ffe066;
+    color: #22223b;
+    border-radius: 1.2rem;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 1px 4px #0077b633;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.remove-crew-btn {
+    background: #ff6f3c;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+.remove-crew-btn:hover {
+    background: #d90429;
+}
 @media (max-width: 900px) {
     main {
         padding: 1.2rem 0.5rem;
@@ -218,5 +332,13 @@ iframe {
     .main-nav a {
         font-size: 0.98rem;
         padding: 0.4rem 0.8rem;
+    }
+    .forecast-grid {
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+    .forecast-card {
+        min-width: 0;
+        max-width: 100%;
     }
 }

@@ -1,0 +1,86 @@
+﻿{
+    "update_timestamp":  "2025-06-04T05:20:59+08:00",
+    "timestamp":  "2025-06-04T05:16:00+08:00",
+    "forecasts":  [
+                      {
+                          "temperature":  {
+                                              "low":  26,
+                                              "high":  35
+                                          },
+                          "date":  "2025-06-05",
+                          "forecast":  "Afternoon thundery showers",
+                          "relative_humidity":  {
+                                                    "low":  55,
+                                                    "high":  95
+                                                },
+                          "wind":  {
+                                       "speed":  {
+                                                     "low":  10,
+                                                     "high":  20
+                                                 },
+                                       "direction":  "S"
+                                   },
+                          "timestamp":  "2025-06-05T00:00:00+08:00"
+                      },
+                      {
+                          "temperature":  {
+                                              "low":  24,
+                                              "high":  33
+                                          },
+                          "date":  "2025-06-06",
+                          "forecast":  "Morning thundery showers",
+                          "relative_humidity":  {
+                                                    "low":  55,
+                                                    "high":  95
+                                                },
+                          "wind":  {
+                                       "speed":  {
+                                                     "low":  10,
+                                                     "high":  20
+                                                 },
+                                       "direction":  "SSW"
+                                   },
+                          "timestamp":  "2025-06-06T00:00:00+08:00"
+                      },
+                      {
+                          "temperature":  {
+                                              "low":  24,
+                                              "high":  33
+                                          },
+                          "date":  "2025-06-07",
+                          "forecast":  "Pre-dawn and early morning thundery showers",
+                          "relative_humidity":  {
+                                                    "low":  55,
+                                                    "high":  95
+                                                },
+                          "wind":  {
+                                       "speed":  {
+                                                     "low":  10,
+                                                     "high":  25
+                                                 },
+                                       "direction":  "SSW"
+                                   },
+                          "timestamp":  "2025-06-07T00:00:00+08:00"
+                      },
+                      {
+                          "temperature":  {
+                                              "low":  24,
+                                              "high":  33
+                                          },
+                          "date":  "2025-06-08",
+                          "forecast":  "Pre-dawn and early morning thundery showers",
+                          "relative_humidity":  {
+                                                    "low":  55,
+                                                    "high":  95
+                                                },
+                          "wind":  {
+                                       "speed":  {
+                                                     "low":  10,
+                                                     "high":  25
+                                                 },
+                                       "direction":  "SSW"
+                                   },
+                          "timestamp":  "2025-06-08T00:00:00+08:00"
+                      }
+                  ]
+}
