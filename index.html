@@ -8,21 +8,39 @@
 </head>
 <body>
     <header>
-        <h1>ShoreSquad</h1>
-        <p>Rally your crew, track weather, and hit the next beach cleanup!</p>
+        <div class="header-bg"></div>
+        <h1><span class="wave">🌊</span> ShoreSquad <span class="sparkle">✨</span></h1>
+        <p class="subtitle">Rally your crew, track weather, and hit the next beach cleanup!</p>
+        <nav class="main-nav">
+            <a href="#map-section">Map</a>
+            <a href="#weather-section">Weather</a>
+            <a href="#crew-section">Crew</a>
+        </nav>
     </header>
     <main>
         <section id="map-section">
             <h2>Find a Cleanup</h2>
-            <div id="map">Map loading...</div>
+            <iframe
+                width="100%"
+                height="400"
+                style="border:0; border-radius: 12px;"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.96407342013!2d103.955574!3d1.381497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2zMcKwMjInNTMuNCJOIDEwM8KwNTcnMjAuMCJF!5e0!3m2!1sen!2ssg!4v1717488000000!5m2!1sen!2ssg">
+            </iframe>
+            <div class="map-label">
+                <span class="map-dot"></span>
+                Next Cleanup: Pasir Ris (Street View Asia)
+            </div>
         </section>
         <section id="weather-section">
             <h2>Weather Tracker</h2>
-            <div id="weather">Weather info loading...</div>
+            <div id="weather" class="card">Weather info loading...</div>
         </section>
         <section id="crew-section">
             <h2>Your Crew</h2>
-            <div id="crew-list">Invite friends and join a cleanup!</div>
+            <div id="crew-list" class="card">Invite friends and join a cleanup!</div>
         </section>
     </main>
     <footer>
